@@ -90,5 +90,5 @@ test("2 characters with hash should fail", () => {
 });
 
 test("Invalid hex letters should fail", () => {
-  expect(isHexColor("#ABCXYZ")).toBe(false);
+  expect(isHexColor("#AB2XYZ")).toBe(false);
 });
